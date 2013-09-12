@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>موقدّس کئتاب</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="contact.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+</script>
+
+
+</head> 
+<body> 
+
+<!--first page-->
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>موقدّس کئتاب</h1>    
+	</div>
+    <div class="arash" data-role="content">
+   <p align="center">ائران آذربایجان خالقی اوچون</p>
+  </div>
+	<div data-role="content">	
+    
+		<ul  data-role="listview" data-split-icon="delete">
+       		 <li><a href="pages/forward.htm">موقدّمه</a></li>
+			<li><a href="pages/old_testament.html">عتئق عهد</a></li>
+            <li><a href="pages/new_testament.html">جدئد عهد</a></li>
+            <li><a href="#contact_us">بئزئمله باغلانتی</a></li>          		 
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4><a href="http://korpu.net" target="_blank">www.korpu.net</a></h4>
+	</div>
+</div>
+
+<!--first page-->
+
+
+
+<!--contact_us-->
+
+<div data-role="page" id="contact_us">
+  <div data-role="header"><a href="#page" data-role="button" data-icon="home" data-iconpos="notext">Button</a>
+  
+    <h1>بئزئمله باغلانتی</h1>
+  </div>
+  <div data-role="content">
+  
+  <div class="contact-thankyou" style="display: none;">
+			Thank you.  Your message has been sent.  We will get back to you as soon as we can.
+	</div>
+		<div class="contact-form">
+			<p class="mandatory">* indicates Manadatory Field</p>
+			<div data-role="fieldcontain" class="text-field">
+				<label for="firstname">First Name*:</label>
+				<input type="text" name="firstname" value="" placeholder="" class="required" id="firstname" />
+			</div>
+			<div data-role="fieldcontain" class="text-field">
+				<label for="surname">Last Name:</label>
+				<input type="text" name="surname" value="" placeholder="" id="surname" />
+			</div>
+			<div data-role="fieldcontain" class="text-field">
+				<label for="email">Email Address*:</label>
+				<input type="email" name="email" value="" placeholder="" class="required" id="email"  />
+			</div>			
+			
+			<div data-role="fieldcontain">
+				<label for="message">Message*:</label>
+				<textarea name="message" id="message" placeholder="" class="required"></textarea>
+			</div>
+			<div class="send"><a href="javascript:;" data-role="button" data-theme="a" data-iconpos="right" id="send-feedback">send</a></div>
+		</div><!-- //.contact-form -->
+  </div>
+  <div data-role="footer">
+    <h4><a href="http://korpu.net">www.korpu.net</a></h4>
+  </div>
+</div>
+
+<!--contact_us-->
+</body>
+</html>
