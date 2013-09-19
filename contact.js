@@ -1,5 +1,5 @@
 $('#send-feedback').live("click", function() {
-	var url = 'api/send.php';
+	var url = 'http://korpu.net/mail/send_app.php';
 	var error = 0;
 	var $contactpage = $(this).closest('.ui-page');
 	var $contactform = $(this).closest('.contact-form');
