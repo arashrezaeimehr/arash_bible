@@ -1,1 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?>	<widget xmlns = "http://www.w3.org/ns/widgets"		xmlns:gap = "http://phonegap.com/ns/1.0"		id        = "net.korpu.azeribible"		versionCode=""		version   = "1.0">		<name>azeri bible</name>		<description>Azeri bible designed and made by Arash Rezaeimehr		</description>		<author href="http://korpu.net" email="info@korpu.net">korpu		</author>		<preference name="phonegap-version" value="2.9.0" />		<preference name="orientation" value="default" />		<preference name="target-device" value="universal" />		<preference name="fullscreen" value="false" />		<preference name="webviewbounce" value="true" />		<preference name="prerendered-icon" value="true" />		<preference name="stay-in-webview" value="true" />		<preference name="ios-statusbarstyle" value="default" />		<preference name="detect-data-types" value="true" />		<preference name="exit-on-suspend" value="false" />		<preference name="show-splash-screen-spinner" value="true" />		<preference name="auto-hide-splash-screen" value="true" />		<preference name="disable-cursor" value="true" />		<preference name="android-minSdkVersion" value="7" />		<preference name="android-maxSdkVersion" value="17" />		<preference name="android-installLocation" value="auto" />		<preference name="splash-screen-duration" value="0" />		<preference name="load-url-timeout" value="0" />		<icon src="icon.png" gap:platform="ios" width="57" height="57" />		<icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />		<icon src="icons/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />		<icon src="icons/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />		<icon src="icons/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />		<icon src="icons/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />		<icon src="icons/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />		<icon src="icons/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />		<icon src="icons/windows-phone/icon-48.png" gap:platform="winphone" />		<icon src="icons/windows-phone/icon-173.png" gap:platform="winphone" gap:role="background" />		<icon src="icons/blackberry/icon-80.png" gap:platform="blackberry" />		<icon src="icons/webos/icon-64.png" gap:platform="webos" />		<gap:splash src="splash/ios/Default.png" width="320" height="480" />		<gap:splash src="splash/ios/Default_lands.png" width="480" height="320" />		<gap:splash src="splash/ios/Default_at_2x.png" width="640" height="960" />		<gap:splash src="splash/ios/Default-Landscape_ati_2x.png" width="960" height="640" />		<gap:splash src="splash/ios/Default_iphone5.png" width="640" height="1136" />		<gap:splash src="splash/ios/Default_iphone5_landscape.png" width="1136" height="640" />		<gap:splash src="splash/ios/Default-Portrait.png" width="768" height="1024 " />		<gap:splash src="splash/ios/Default-Landscape.png" width="1024" height="768" />		<gap:splash src="splash/ios/Default-Portrait_at_2x.png" width="1536" height="2008" />		<gap:splash src="splash/ios/Default-Landscape_at_2x.png" width="2048" height="1536" />		<gap:splash src="splash/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />		<gap:splash src="splash/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />		<gap:splash src="splash/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="hdpi" />		<gap:splash src="splash/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />	</widget>
+<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		id        = "net.korpu.azeribible"
+		versionCode="2.9"
+		version   = "1.0">
+		<name>azeri bible</name>
+		<description>
+Azeri bible designed and made by Arash Rezaeimehr		</description>
+		<author href="http://korpu.net" email="info@korpu.net">
+korpu
+		</author>
+        <gap:platform name="ios" />
+        <gap:platform name="android" />
+        <gap:platform name="webos" />
+        <gap:platform name="symbian" />
+        <gap:platform name="blackberry" />
+        <gap:platform name="winphone" />
+        
+		<preference name="phonegap-version" value="2.9.0" />
+		<preference name="orientation" value="default" />
+		<preference name="target-device" value="universal" />
+		<preference name="fullscreen" value="false" />
+		<preference name="webviewbounce" value="true" />
+		<preference name="prerendered-icon" value="true" />
+		<preference name="stay-in-webview" value="true" />
+		<preference name="ios-statusbarstyle" value="default" />
+		<preference name="detect-data-types" value="true" />
+		<preference name="exit-on-suspend" value="false" />
+		<preference name="show-splash-screen-spinner" value="true" />
+		<preference name="auto-hide-splash-screen" value="true" />
+		<preference name="disable-cursor" value="true" />
+		<preference name="android-minSdkVersion" value="7" />
+		<preference name="android-maxSdkVersion" value="17" />
+		<preference name="android-installLocation" value="auto" />
+		<preference name="splash-screen-duration" value="0" />
+		<preference name="load-url-timeout" value="0" />
+        
+		<icon src="icon.png" gap:platform="ios" width="57" height="57" />
+		<icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+		<icon src="icons/ios/icon-57-2x.png" gap:platform="ios" width="114" height="114" />
+		<icon src="icons/ios/icon-72-2x.png" gap:platform="ios" width="144" height="144" />
+		<icon src="icons/android/icon-36-ldpi.png" gap:platform="android" gap:density="ldpi" />
+		<icon src="icons/android/icon-48-mdpi.png" gap:platform="android" gap:density="mdpi" />
+		<icon src="icons/android/icon-72-hdpi.png" gap:platform="android" gap:density="hdpi" />
+		<icon src="icons/android/icon-96-xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+		<icon src="icons/windows-phone/icon-48.png" gap:platform="winphone" />
+		<icon src="icons/windows-phone/icon-173.png" gap:platform="winphone" gap:role="background" />
+		<icon src="icons/blackberry/icon-80.png" gap:platform="blackberry" />
+		<icon src="icons/webos/icon-64.png" gap:platform="webos" />
+        
+		<gap:splash src="splash/ios/Default.png" width="320" height="480" />
+		<gap:splash src="splash/ios/Default_lands.png" width="480" height="320" />
+		<gap:splash src="splash/ios/Default_at_2x.png" width="640" height="960" />
+		<gap:splash src="splash/ios/Default-Landscape_ati_2x.png" width="960" height="640" />
+		<gap:splash src="splash/ios/Default_iphone5.png" width="640" height="1136" />
+		<gap:splash src="splash/ios/Default_iphone5_landscape.png" width="1136" height="640" />
+		<gap:splash src="splash/ios/Default-Portrait.png" width="768" height="1024 " />
+		<gap:splash src="splash/ios/Default-Landscape.png" width="1024" height="768" />
+		<gap:splash src="splash/ios/Default-Portrait_at_2x.png" width="1536" height="2008" />
+		<gap:splash src="splash/ios/Default-Landscape_at_2x.png" width="2048" height="1536" />
+		<gap:splash src="splash/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="ldpi" />
+		<gap:splash src="splash/android/screen-mdpi-portrait.png" gap:platform="android" gap:density="mdpi" />
+		<gap:splash src="splash/android/screen-ldpi-portrait.png" gap:platform="android" gap:density="hdpi" />
+		<gap:splash src="splash/android/screen-hdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
+	</widget>
